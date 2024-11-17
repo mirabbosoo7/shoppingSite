@@ -1,0 +1,133 @@
+.MainCard3 >.box1> img {
+  width: 10vw;
+}
+.MainCard3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.MainCard3 >.box1  {
+  width: 11vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainCard3 >.box1>h1{
+    font-size: 1vw;
+}
+.starsimg>img:nth-child(1){
+  width: 5vw;
+}
+.starsimg>img:nth-child(2){
+  width: 2vw;
+}
+.MainCard3 >.box2> img {
+  width: 10vw;
+}
+.MainCard3 >.box2  {
+  width: 11vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainCard3 >.box2>h1{
+    font-size: 1vw;
+}
+.starsimg>img:nth-child(1){
+  width: 5vw;
+}
+.starsimg>img:nth-child(2){
+  width: 2vw;
+}
+.MainCard3 >.box3> img {
+  width: 10vw;
+}
+.MainCard3 >.box3  {
+  width: 11vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainCard3 >.box3>h1{
+    font-size: 1vw;
+}x
+.starsimg>img:nth-child(1){
+  width: 5vw;
+}
+.starsimg>img:nth-child(2){
+  width: 2vw;
+}
+.MainCard3 >.box4> img {
+  width: 10vw;
+}
+.MainCard3 >.box4  {
+  width: 11vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainCard3 >.box4>h1{
+    font-size: 1vw;
+}x
+.starsimg>img:nth-child(1){
+  width: 5vw;
+}
+.starsimg>img:nth-child(2){
+  width: 2vw;
+}
+.MainCard3 >.box5> img {
+  width: 10vw;
+}
+.MainCard3 >.box5  {
+  width: 11vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainCard3 >.box5>h1{
+    font-size: 1vw;
+}x
+.starsimg>img:nth-child(1){
+  width: 5vw;
+}
+.starsimg>img:nth-child(2){
+  width: 2vw;
+}
+.MainCard3 >.box4> img {
+  width: 10vw;
+}
+.MainCard3 >.box4  {
+  width: 11vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainCard3 >.box4>h1{
+    font-size: 1vw;
+}x
+.starsimg>img:nth-child(1){
+  width: 5vw;
+}
+.starsimg>img:nth-child(2){
+  width: 2vw;
+}

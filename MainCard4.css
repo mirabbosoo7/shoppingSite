@@ -1,0 +1,31 @@
+.MainCard4 {
+  width: 73%;
+  display: flex;
+  /* border: 2px solid red; */
+  margin: 0 0 0 13.5vw;
+}
+.box > p {
+  width: 50vw;
+  font-size: 1vw;
+  /* border: 2px solid red; */
+}
+.box55 {
+  gap: 5vw;
+}
+.box99 {
+  font-size: 1vw;
+  display: flex;
+}
+.box2 > img {
+  width: 30vw;
+}
+@media only screen and (max-width:761px){
+  .br{
+    display: none
+  }
+}
+@media only screen and (max-width:761px){
+  .br{
+    display: none
+  }
+}

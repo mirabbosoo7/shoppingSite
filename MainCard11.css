@@ -1,0 +1,99 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(60 / 19.2 * 1vw);
+}
+.cardTaxt > h2 {
+  font-size: 2vw;
+}
+.card1 {
+  width: calc(549 / 19.2 * 1vw);
+  /* border: 2px solid red; */
+  height: 15vw;
+  gap: calc(10 / 19.2 * 1vw);
+  border-radius: calc(24 / 19.2 * 1vw);
+  display: flex;
+}
+.card2 {
+  width: calc(549 / 19.2 * 1vw);
+  /* border: 2px solid red; */
+  height: 15vw;
+  gap: calc(10 / 19.2 * 1vw);
+  border-radius: calc(24 / 19.2 * 1vw);
+  display: flex;
+}
+.card1 img {
+  width: calc(100 / 19.2 * 1vw);
+  height: calc(100 / 19.2 * 1vw);
+  gap: 0px;
+}
+.card2 img {
+  width: calc(100 / 19.2 * 1vw);
+  height: calc(100 / 19.2 * 1vw);
+  gap: 0px;
+}
+.cardTaxt p {
+  font-family: Inter, sans-serif;
+  font-size: calc(16 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(24 / 19.2 * 1vw);
+}
+@media only screen and (max-width: 360px){
+  .card2{
+    display: none;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .card1:nth-child(2) {
+    display: none;
+  }
+}
+.a {
+  width: calc(200 / 19.2 * 1vw);
+  text-decoration: none;
+}
+.a a {
+  text-decoration: none;
+  color: #000;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(100 / 19.2 * 1vw);
+}
+.cordText2 h1 {
+  width: calc(549 / 19.2 1v);
+  height: calc(38 / 19.2 * 1vw);
+  font-family: Inter, sans-serif;
+  padding: calc(0 / 19.2 * 1vw) calc(350 / 19.2 * 1vw);
+}
+.cordText2 {
+  font-family: Inter, sans-serif;
+  font-size: calc(16 / 19.2 * 1vw);
+  font-weight: 400;
+  line-height: calc(22.4 / 19.2 * 1vw);
+}
+.cordText2 h2 {
+  font-family: Inter, sans-serif;
+  font-size: calc(20 / 19.2 * 1vw);
+  font-weight: 700;
+  line-height: calc(24 / 19.2 * 1vw);
+}
+.box {
+  width: calc(549 / 19.2 * 1vw);
+  height: calc(132 / 19.2 * 1vw);
+}
+.con > h2 {
+  font-size: 1vw;
+}
+.con1 > h2 {
+  font-size: 1vw;
+}
+.con2 > h2 {
+  font-size: 1vw;
+}
+.con3 > h2 {
+  font-size: 1vw;
+}

@@ -1,0 +1,105 @@
+.wrapper12 {
+  display: flex;
+}
+.wrapper12 > .ong > img {
+  width: 40vw;
+}
+.chap > .wrapper > .box1 > h1 {
+  font-size: 2vw;
+  color: yellow;
+}
+.chap > .wrapper > .box2 > h1 {
+  font-size: 2vw;
+  color: yellow;
+}
+.chap > .wrapper > .box3 > h1 {
+  font-size: 2vw;
+  color: yellow;
+}
+.chap > .wrapper > .box1 > p {
+  font-size: 1vw;
+}
+.chap > .wrapper > .box2 > p {
+  font-size: 1vw;
+}
+.chap > .wrapper > .box3 > p {
+  font-size: 1vw;
+}
+.MainCard7 {
+  width: 73%;
+  height: auto;
+  margin: 0 0 0 13.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.MainCard7>h1{
+    font-size: 3vw;
+}
+.wrapper12 {
+  gap: 10vw;
+  /* border: 2px solid red; */
+}
+.EndTwoDiv {
+  display: flex;
+}
+.EndTwoDiv > .box1 {
+  height: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.EndTwoDiv > .box1 > img {
+  width: 5vw;
+  height: 5vw;
+  /* border: 2px solid red; */
+}
+.EndTwoDiv > .box2 > img {
+  width: 5vw;
+  height: 5vw;
+  /* border: 2px solid red; */
+}
+.EndTwoDiv > .box2 {
+  height: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  border-radius: 3vw;
+}
+.EndTwoDiv > .box1 {
+    border-radius: 3vw;
+}
+.EndTwoDiv > .box1 >.h1p>h1{
+    font-size: 2vw;
+}
+.EndTwoDiv > .box2 >.h1p>h1{
+    font-size: 2vw;
+}
+.EndTwoDiv > .box2 >.h1p>p{
+    font-size: 1vw;
+}
+.EndTwoDiv > .box1 >.h1p>p{
+    font-size: 1vw;
+}
+@media only screen and (max-width:361px){
+    .MainCard7{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper12{
+        flex-direction: column-reverse;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .EndTwoDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}

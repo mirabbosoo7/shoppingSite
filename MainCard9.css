@@ -1,0 +1,95 @@
+.MainCard9 {
+  width: 100%;
+  margin: 0 0 0 1.5vw;
+  /* border: 2px solid red; */
+}
+.wrapper2 > .box1 {
+  width: 30vw;
+  height: 20vw;
+  /* border: 2px solid red; */
+  background: #11d4d11a;
+  border-radius: 1vw;
+}
+.wrapper2 > .box1 > h1:nth-child(2) {
+  font-size: 3vw;
+}
+.wrapper2 > .box1 > h1:nth-child(2) > span {
+  font-size: 2vw;
+}
+.box1 > p:nth-child(1) {
+  font-size: 1.5vw;
+}
+.box1 > p {
+  font-size: 1vw;
+}
+.box1 > button {
+  width: 10vw;
+  color: #00b9b6;
+  background: white;
+  border-radius: 0.5vw;
+  border: none;
+  font-size: 1vw;
+}
+.wrapper2 > .box2 {
+  width: 40vw;
+  height: 23vw;
+  /* border: 2px solid red; */
+  background: #00b9b6;
+  border-radius: 1vw;
+  margin-top: -1.5vw;
+  margin-left: 2vw;
+}
+.wrapper2 {
+  display: flex;
+}
+.wrapper2 > .box2 > h1:nth-child(1) {
+  font-size: 1vw;
+  color: white;
+}
+.wrapper2 > .box2 > h1:nth-child(2) {
+  font-size: 3vw;
+  color: white;
+}
+.wrapper2 > .box2 > h1:nth-child(2) > span {
+  font-size: 2vw;
+  color: white;
+}
+.wrapper2 > .box2 > p {
+  font-size: 1vw;
+  color: white;
+}
+.MainCard9 > h1 {
+  font-size: 2vw;
+}
+.box2 > button {
+  width: 10vw;
+  color: #00b9b6;
+  background: white;
+  border-radius: 0.5vw;
+  border: none;
+  font-size: 1vw;
+}
+.box2 > button:active {
+  color: white;
+  background: #000;
+}
+.box1 > button:active {
+  color: white;
+  background: #000;
+}
+@media only screen and (max-width:768px){
+    .wrapper2 > .box1{
+        display: none;
+    }
+    .wrapper2 > .box2{
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .MainCard9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

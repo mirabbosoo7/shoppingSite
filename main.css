@@ -1,0 +1,66 @@
+.MainCard1 {
+  display: flex;
+}
+.MainCard1 {
+  width: 73%;
+  /* border: 2px solid red; */
+  margin: 0 0 0 13.5vw;
+}
+.box2 > .spkp {
+  flex-direction: column;
+}
+.spkp > h1 {
+  width: 7vw;
+  font-size: 2vw;
+  color: #00b9b6;
+  /* border: 2px solid red; */
+  transition: 0.5s;
+}
+.spkp > h1:hover {
+  color: yellow;
+  transition: 0.5s;
+}
+.spkp > p {
+  font-size: 1vw;
+  /* border: 2px solid red; */
+  transition: 0.5s;
+}
+.spkp > p:hover {
+  color: yellow;
+}
+.box2imgspkp {
+  display: flex;
+}
+.box1 > img {
+  width: 40vw;
+  /* border: 2px solid red; */
+}
+.box2 > h1 {
+  width: 20.5vw;
+  font-size: 2vw;
+  /* border: 2px solid red; */
+  transition: 0.5s;
+}
+.box2 > h1:hover {
+  color: yellow;
+  transition: 0.5s;
+}
+#www{
+  width: 25vw;
+  /* border: 2px solid red; */
+}
+.box2imgh1>img{
+    width: 10vw;
+    /* border: 2px solid red; */
+}
+@media only screen and (max-width:769px){
+    .MainCard1{
+        display: flex;
+        flex-direction: column;
+    }   
+    .MainCard1>.box1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

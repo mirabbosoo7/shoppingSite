@@ -1,0 +1,107 @@
+.MainCard8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainCard8 > h1 {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.OngChap {
+  display: flex;
+}
+.MainCard8 > h1 {
+  font-size: 2vw;
+}
+.MainCard8 > .OngChap > .Chap > .box1 > h1 {
+  width: 21vw;
+  /* border: 2px solid red; */
+  font-size: 1.5vw;
+}
+.MainCard8 > .OngChap > .Chap > .box1 {
+  margin-top: 5vw;
+  /* border: 2px solid red; */
+}
+.MainCard8 > .OngChap > .Chap > .box2 {
+  margin-top: 5vw;
+  /* border: 2px solid red; */
+}
+.MainCard8 > .OngChap > .Ong > .box1 {
+  margin-top: 5vw;
+  /* border: 2px solid red; */
+  margin-left: 5vw;
+}
+.MainCard8 > .OngChap > .Ong > .box2 {
+  margin-top: 5vw;
+  margin-left: 5vw;
+  /* border: 2px solid red; */
+}
+.MainCard8 > .OngChap > .Chap > .box1 > p {
+  /* border: 2px solid red; */
+  font-size: 1vw;
+}
+.MainCard8 > .OngChap > .Chap > .box2 > h1 {
+  width: 21vw;
+  /* border: 2px solid red; */
+  font-size: 1.5vw;
+}
+.MainCard8 > .OngChap > .Chap > .box2 > p {
+  /* border: 2px solid red; */
+  font-size: 1vw;
+}
+.MainCard8 > .OngChap > .Ong > .box1 > h1 {
+  width: 21vw;
+  /* border: 2px solid red; */
+  font-size: 1.5vw;
+}
+.MainCard8 > .OngChap > .Ong > .box1 > p {
+  /* border: 2px solid red; */
+  font-size: 1vw;
+}
+.MainCard8 > .OngChap > .Ong > .box2 > h1 {
+  width: 21vw;
+  /* border: 2px solid red; */
+  font-size: 1.5vw;
+}
+.MainCard8 > .OngChap > .Ong > .box2 > p {
+  /* border: 2px solid red; */
+  font-size: 1vw;
+}
+.BeetwenImg > img {
+  width: 20vw;
+  /* border: 2px solid red; */
+  margin-left: 5vw;
+}
+.MainCard8>button{
+  width: 15vw;
+  border-radius: 1vw;
+  color: #00B9B6;
+  border: 2px solid #00B9B6;
+  font-size: 1vw;
+}
+.MainCard8>button:active{
+  color: #000;
+  background: #00B9B6;
+}
+@media only screen and (max-width: 769px) {
+  .OngChap {
+    flex-direction: column-reverse;
+  }
+  .MainCard8 > .OngChap > .Chap > .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
+  .MainCard8 > .OngChap > .Chap > .box2 {
+    display: none;
+  }
+  .MainCard8 > .OngChap > .Ong > .box1 {
+    display: none;
+  }
+  .MainCard8 > .OngChap > .Ong > .box2 {
+    display: none;
+  }
+}
